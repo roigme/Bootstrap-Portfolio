@@ -1,72 +1,147 @@
 <!doctype html>
 <html lang="en-us">
 
-<head>
-  <meta charset="UTF-8">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
   
-  <!-- Added the viewport meta tag-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Matt</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
- 
-</head>
-
+    <title>Profile| Matt Roig</title>
+  
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' href='assets/styles/style.css'>
+  
+    
+  </head>
 <body>
      
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Julius Ceaser</a>
+    <nav id="home" class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Matt Roig</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="./work.html">My Work</a>
+                      <a class="nav-link" href="#work">My Work</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="./contact.html">Contact</a>
+                      <a class="nav-link" href="#connect">Contact</a>
                     </li>
                   </ul>
                 </div>
               </nav>
               
-              
-              <div class="container">
-                    <div class="row">
-                      <div class="col-md-8">
-                        <div class="page-header">
-                          <h1>About Me</h1>
-                        </div>
-                        <div class="row">
-                          <div class="col-sm-12 col-md-3">
-                            <img src="https://www.biography.com/.image/t_share/MTI4NjkyNDk4NDYwNjExODU4/julius-caesarjpg.jpg" alt="Ceaser" class="img-fluid">
-                          </div>
-                          <div class="col-md-9">
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique, nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate pretium. Nullam commodo, est ac auctor ornare,
-                              eros nisi fringilla sem, non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus, luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et neque fringilla ultricies. Aenean
-                              at feugiat elit, a posuere justo. Pellentesque egestas dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id posuere sem congue a.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-            
+          <div class= "container-fluid">
+            <div class="row"> 
+              <section id="about" class="col-12">
+                <div class="jumbotron" id="homeJumbo">
+                  <h1 class="display-4">Hello, I am Matt</h1>
+                  <p class="lead">I am a Virginia based aspiring web developer. With almost a decade of automotive and sales experience. I bring problem solving and customer focus to every project.</p>
+                  <hr class="my-4">
+                  <blockquote class="blockquote static-bottom text-center">
+                    <p class="mb-0">"Nothing is impossible, the word itself says “I’m possible”!"</p>
+                    <footer class="blockquote-footer">Audrey Hepburn</footer>
+                  </blockquote>
+                </div>
+              </section>
+            </div>
+
+            <div class="row"> 
+              <section id="work" class="col-12">
+                <div class="jumbotron">
+                  <h1 class="display-4">My Work, </h1>
+                  <p class="lead">Here are some projects I am working on..</p>
+                  <hr class="my-4">
+                  <div class="card bg-transparent" style="width: 18rem;">
+                    <img class="card-img-top rounded" src="assets/images/beattheodds.gif" alt="Beat the Odds">
+                    <div class="card-body">
+                      <h5 class="card-title">Beat the Odds</h5>
+                      <p class="card-text">First group project. Our goal was to make a game where the player bets on the outcome of a random historical football game. 
+                        Sportsradar's API was used. An ambitious project we are still working on.
+                      </p>
+                      <a href="#" class="btn btn-danger">Go to the site.</a>
+                      <a href="#" class="btn btn-warning">See the code.</a>
                     </div>
                   </div>
+                  <div class="card bg-transparent" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/trivia.jpg" alt="Star Trivia">
+                    <div class="card-body">
+                      <h5 class="card-title">Star Wars Trivia</h5>
+                      <p class="card-text">A fun Star Wars trivia game, made with Javascript. The game uses an array of objects so adding questions is seamless.
+                        Work continues on this project to make it more mobile friendly and add functionality.
+                      </p>
+                      <a href="https://roigme.github.io/starTrivia/" class="btn btn-danger">Go to the site.</a>
+                      <a href="https://github.com/roigme/starTrivia" class="btn btn-warning">See the code.</a>
+                    </div>
+                  </div>
+                  <div class="card bg-transparent" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/movie.jpg" alt="MovieGif">
+                    <div class="card-body">
+                      <h5 class="card-title">Movie GIFS</h5>
+                      <p class="card-text">A simple site that interacts with the Giphy Api to generate gifs of a selected movie. Gifs are static initially but will
+                         animate when clicked on. Continuing to work on mobile accesessibility and styling.
+                      </p>
+                      <a href="https://roigme.github.io/MovieGIF/" class="btn btn-danger">Go to the site.</a>
+                      <a href="https://github.com/roigme/MovieGIF" class="btn btn-warning">See the code.</a>
+                    </div>
+                  </div>
+                  <hr class="my-4">
+                  <blockquote class="blockquote text-center">
+                    <p class="mb-0">"Success isn't always about greatness. It's about consistency. Consistent hard work leads to success. Greatness will come."</p>
+                    <footer class="blockquote-footer">Dwayne Johnson</footer>
+                  </blockquote>
+                  <p class="lead text-center">
+                    <a class="btn btn-primary btn-lg" href="https://github.com/roigme" role="button">View My Github Repo</a>
+                  </p>
+                </div>
+              </section>
+            </div>
+
+            <div class="row"> 
+              <section id="connect" class="col-12">
+                <div class="jumbotron">
+                  <h1 class="display-4 white">Connect with me!</h1>
+                  <p class="lead">Coming soon.</p>
+                  <hr class="my-4">
+                  <div id="contactDiv">
+
+                  </div>
+                  <blockquote class="blockquote text-center static-bottom">
+                    <p class="mb-0">"Do or do not. There is no try."</p>
+                    <footer class="blockquote-footer">Yoda</footer>
+                  </blockquote>
+                  <p class="lead text-center">
+                    <a class="btn btn-primary btn-lg" id="topper" href="#home" role="button">Back to the Top!</a>
+                  </p>
+                </div>
+              </section>
+            </div>
                 
-<nav class="navbar fixed-bottom navbar-light bg-light">
-    <div class= "col-md-5"></div>
-    <div class= "col-md-2">
+          </div>
+               
+
+                
+<nav class="navbar static-bottom navbar-light bg-light">
+    <div class= "col-md-12 text-center">
         <a class="navbar-brand" href="#"> Matt Roig | 2018</a>
     </div>
-    <div class= "col-md-5"></div>
+
 </nav>
-</div>         
+       
+<!-- Java Script for Bootstrap -->
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script  src="https://code.jquery.com/jquery-3.3.1.js"  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="  crossorigin="anonymous"></script>
+<script src= "assets/scripts/logic.js"></script>
 
-
-</body>
+</body></html>
